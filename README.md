@@ -5,10 +5,10 @@ This image includes some quirks to make [glibc](https://www.gnu.org/software/lib
 
 If you need to update your libc library cache, use `/usr/glibc-compat/sbin/ldconfig` instead of the usual `/sbin/ldconfig`. You can also use the `LD_LIBRARY_PATH` as on standard libc-based distributions.
 
-## Supported tags
+## Supported tags and respective `Dockerfile` links
 No `latest` tag, please use specific version tags.
 
- - `3.13-alpine-glibc`
+ - [`3.13-alpine-glibc`](https://github.com/Docker-Hub-sirmark/docker-python-alpine-glibc/blob/main/3.13/alpine-glibc/Dockerfile)
 
 ## Docker Pull Command
 
