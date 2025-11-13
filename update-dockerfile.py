@@ -4,7 +4,7 @@ import os
 import sys
 
 python_versions = [
-    "3.13",
+    "3.14",
 ]
 
 glibc_version = "2.34-r0"
