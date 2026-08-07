@@ -7,7 +7,7 @@ python_versions = [
     "3.14",
 ]
 
-glibc_version = "2.42"
+glibc_version = "2.44"
 
 docker_arches = [
     "linux/amd64",
@@ -54,7 +54,7 @@ def update_readme():
         write_file(f"README.md", rendered)
 
 def update_ci():
-    file = ".github/workflows/ci.yml"
+    file = ".github/workflows/ci.yaml"
     config = read_file(file)
 
     versions = ""
