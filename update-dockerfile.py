@@ -54,7 +54,7 @@ def update_readme():
         write_file(f"README.md", rendered)
 
 def update_ci():
-    file = ".github/workflows/ci.yaml"
+    file = ".github/workflows/docker.yaml"
     config = read_file(file)
 
     versions = ""
